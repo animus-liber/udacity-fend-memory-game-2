@@ -8,8 +8,8 @@ This project concentrates on using JavaScript for DOM manipulation.
 Clone the GitHub repository and open the index.html
 
 ```
-$ git clone "https://github.com/animus-liber/udacity-fend-memory-game.git"
-$ cd "udacity-fend-memory-game"
+$ git clone "https://github.com/animus-liber/udacity-fend-memory-game-2.git"
+$ cd "udacity-fend-memory-game-2"
 $ index.html`
 ```
 
