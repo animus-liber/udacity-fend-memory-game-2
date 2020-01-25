@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Memory Game - by David Porter</title>
+    <meta name="description" content="Memory Game for UdaCity concentrating on JavaScript DOM manipulation">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/fontawesome-free-5.1.0-web/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/over750.css" media="screen and (min-width: 750px)">
+  </head>
+
+  <body>
+    <!-- Header with game stats and reset button -->
+    <header class="app-header">
+      <h1 class="app-title">Memory Game</h1>
+      <article class="game-stats">
+        <ul class="stars">
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+        <span class="moves-counter">Moves: 0</span>
+        <span class="timer">Timer</span>
+        <span class="restart-game">Play <i class="fas fa-redo"></i> Again</span>
+      </article>
+    </header>
+
+    <!-- Main section -> Game Deck -->
+    <main>
+      <article class="deck">
+      </article>
+    </main>
+
+    <!-- The Modal -->
+    <article class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <h3>Congratulations!<i class="modal-close far fa-times-circle fa-1x"></i></h3>
+        <section class="game-stats">
+          <ul class="stars">
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+          </ul>
+          <span class="moves-counter">Moves: 0</span>
+          <span class="timer">Timer</span>
+          <span class="restart-game">Play <i class="fas fa-redo"></i> Again</span>
+        </section>
+      </div>
+    </article>
+    <script src="js/app.js"></script>
+  </body>
+</html>
